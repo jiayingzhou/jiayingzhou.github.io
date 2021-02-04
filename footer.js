@@ -25,7 +25,7 @@ var footer = React.createElement(
         ),
         React.createElement(
             "div",
-            { "class": "col-sm-2" },
+            { "class": "col-sm-2 py-1" },
             React.createElement("img", { "class": "img-fluid", src: "resource/icon/MHwdmk_D2Dgold.png", alt: "footer-icon" })
         )
     )

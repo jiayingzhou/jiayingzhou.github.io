@@ -1,6 +1,5 @@
 const footer =
     <div class="container px-5">
-
         <div class="row bg-light py-3">
             <div class="col">
                 <div class=" text-muted my-footer">
@@ -8,7 +7,7 @@ const footer =
                     <i>Last updated: {document.lastModified}</i>
                 </div>
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-2 py-1">
                 <img class="img-fluid" src="resource/icon/MHwdmk_D2Dgold.png" alt="footer-icon"></img>
             </div>
         </div>
