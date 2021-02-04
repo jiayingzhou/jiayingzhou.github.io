@@ -1,7 +1,7 @@
 function Paper(props) {
     return (
         <li>
-            <span class="badge bg-primary rounded-pill">Paper</span> <my-bold >{props.time}</my-bold> {props.content}
+            <my-bold >{props.time}</my-bold> {props.content}
         </li>
     );
 }

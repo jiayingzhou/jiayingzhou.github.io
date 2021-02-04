@@ -3,12 +3,6 @@ function Paper(props) {
         "li",
         null,
         React.createElement(
-            "span",
-            { "class": "badge bg-primary rounded-pill" },
-            "Paper"
-        ),
-        " ",
-        React.createElement(
             "my-bold",
             null,
             props.time
