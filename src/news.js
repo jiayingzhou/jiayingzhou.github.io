@@ -1,8 +1,8 @@
-function Paper(props) {
+function News(props) {
     return (
-        <li>
-            <my-bold >{props.time}</my-bold> {props.content}
-        </li>
+        <div>
+            <span class="news-time">{props.time} - </span>{props.content}
+        </div>
     );
 }
 
@@ -12,7 +12,7 @@ const justNews = <span>My work at JD.com <a href="#JUST">JUST: JD Urban Spatio-T
 const news =
     <div class="py-3">
         <h5>News</h5>
-        <Paper time="12/2019" content={justNews} />
+        <News time="12/2019" content={justNews} />
     </div>;
 
 

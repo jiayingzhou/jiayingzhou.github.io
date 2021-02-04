@@ -1,4 +1,3 @@
-// Publications
 function Publication(props) {
     return React.createElement(
         "div",
@@ -32,8 +31,8 @@ function Publication(props) {
                     { "class": "font-weight-light small" },
                     props.authorsBefore,
                     React.createElement(
-                        "my-bold",
-                        null,
+                        "span",
+                        { "class": "my-bold" },
                         "Yuchuan Huang"
                     ),
                     props.authorsAfter,
@@ -67,7 +66,7 @@ var justLinks = React.createElement(
     ),
     React.createElement(
         "a",
-        { href: "files/papers/icde2020_just.pdf" },
+        { href: "resource/papers/icde2020_just.pdf" },
         "[PDF]"
     ),
     React.createElement(
@@ -96,7 +95,7 @@ var publications = React.createElement(
         "Publications"
     ),
     React.createElement(
-        "span",
+        "div",
         null,
         "2020"
     ),

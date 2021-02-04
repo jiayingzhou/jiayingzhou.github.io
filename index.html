@@ -45,7 +45,7 @@
             transition: transform 0.4s ease;
         }
 
-        .btn[aria-expanded="true"]:before {
+        .btn[aria-expanded="true"]::before {
             transform: rotate(90deg);
         }
 
@@ -54,21 +54,28 @@
             width: 50%;
         }
 
-        my-bold {
+        .my-bold {
             font-weight: 500;
+        }
+
+        .news-time {
+            font-weight: 500;
+            /* font-style: italic; */
+        }
+
+        .my-footer {
+            font-weight: 300;
+            font-size: small;
         }
     </style>
 
 </head>
 
 <body>
-    <div id="header"></div>
-    <div id="bio"></div>
-    <div id="links"></div>
-    <div id="more"></div>
-    <div id="footer"></div>
+    <div id="root"></div>
 
     <!-- React JS-->
+    <script src="root.js"></script>
     <script src="header.js"></script>
     <script src="bio.js"></script>
     <script src="links.js"></script>

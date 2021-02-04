@@ -3,7 +3,7 @@ var footer = React.createElement(
     { "class": "container px-5" },
     React.createElement(
         "div",
-        { "class": "bg-light text-muted fw-light small" },
+        { "class": "bg-light text-muted my-footer" },
         React.createElement(
             "span",
             null,

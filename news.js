@@ -1,13 +1,13 @@
-function Paper(props) {
+function News(props) {
     return React.createElement(
-        "li",
+        "div",
         null,
         React.createElement(
-            "my-bold",
-            null,
-            props.time
+            "span",
+            { "class": "news-time" },
+            props.time,
+            " - "
         ),
-        " ",
         props.content
     );
 }
@@ -38,7 +38,7 @@ var news = React.createElement(
         null,
         "News"
     ),
-    React.createElement(Paper, { time: "12/2019", content: justNews })
+    React.createElement(News, { time: "12/2019", content: justNews })
 );
 
 ReactDOM.render(news, document.querySelector('#news'));

@@ -6,23 +6,22 @@ function Experience(props) {
             "div",
             { "class": "col-md-9" },
             React.createElement(
-                "my-bold",
-                null,
+                "div",
+                { "class": "my-bold" },
                 props.where
             ),
-            React.createElement("br", null),
             React.createElement(
                 "div",
-                { "class": "font-weight-light" },
+                { "class": "fw-light" },
                 props.role
             )
         ),
         React.createElement(
             "div",
-            { "class": "col d-none d-md-block" },
+            { "class": "col" },
             React.createElement(
                 "div",
-                { "class": "font-weight-light small float-right" },
+                { "class": "fw-light small" },
                 React.createElement(
                     "i",
                     null,
@@ -31,29 +30,7 @@ function Experience(props) {
             ),
             React.createElement(
                 "div",
-                { "class": "font-weight-light small float-right" },
-                React.createElement(
-                    "i",
-                    null,
-                    props.location
-                )
-            )
-        ),
-        React.createElement(
-            "div",
-            { "class": "col d-md-none" },
-            React.createElement(
-                "div",
-                { "class": "font-weight-light small" },
-                React.createElement(
-                    "i",
-                    null,
-                    props.when
-                )
-            ),
-            React.createElement(
-                "div",
-                { "class": "font-weight-light small" },
+                { "class": "fw-light small" },
                 React.createElement(
                     "i",
                     null,

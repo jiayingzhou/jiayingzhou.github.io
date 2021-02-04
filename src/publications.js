@@ -1,4 +1,3 @@
-// Publications
 function Publication(props) {
     return (
         <div class="row my-3">
@@ -13,7 +12,7 @@ function Publication(props) {
                 <div class="container">
                     <a href={props.titleLink}>{props.title}</a>
                     <p class="font-weight-light small">
-                        {props.authorsBefore}<my-bold>Yuchuan Huang</my-bold>{props.authorsAfter}
+                        {props.authorsBefore}<span class="my-bold">Yuchuan Huang</span>{props.authorsAfter}
                         <br />
                         {props.proceeding}
                         <br />
@@ -29,7 +28,7 @@ function Publication(props) {
 const justProceeding = <span><i>Proceedings of the 36th IEEE International Conference on Data Engineering</i>, pages. 1558—1569, April 2020</span>;
 const justLinks =
     <span><a href="http://just.urban-computing.com/">[Demo]</a>
-        <a href="files/papers/icde2020_just.pdf">[PDF]</a>
+        <a href="resource/papers/icde2020_just.pdf">[PDF]</a>
         <a href="https://drive.google.com/file/d/1IZnxBmhp_12rfSktjZO2jUGfIr2mUeTQ/view">[Slides]</a>
         <a href="https://www.youtube.com/watch?v=0zuk9d7Vjhk&t=951s">[Video]</a></span>;
 const just =
@@ -42,7 +41,7 @@ const just =
 const publications =
     <div class="py-3">
         <h5 >Publications</h5>
-        <span >2020</span>
+        <div>2020</div>
         <hr class="my-1" />
         <div id="JUST">{just}</div>
     </div>;

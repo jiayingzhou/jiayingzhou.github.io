@@ -5,7 +5,7 @@ const header =
                 <h2 class="my-header">I'm Yuchuan Huang.</h2>
             </div>
             <div class="col-2">
-                <img class="profile img-fluid d-none d-sm-block" src="resource/profile/1440x1440.jpeg" alt="profile"></img>
+                <img class="d-none d-sm-block profile" src="resource/profile/1440x1440.jpeg" alt="profile"></img>
             </div>
         </div>
     </div>;

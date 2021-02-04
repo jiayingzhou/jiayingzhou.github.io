@@ -2,17 +2,12 @@ function Experience(props) {
     return (
         <div class="row my-3">
             <div class="col-md-9">
-                <my-bold>{props.where}</my-bold>
-                <br />
-                <div class="font-weight-light">{props.role}</div>
+                <div class="my-bold">{props.where}</div>
+                <div class="fw-light">{props.role}</div>
             </div>
-            <div class="col d-none d-md-block">
-                <div class="font-weight-light small float-right"><i>{props.when}</i></div>
-                <div class="font-weight-light small float-right"><i>{props.location}</i></div>
-            </div>
-            <div class="col d-md-none">
-                <div class="font-weight-light small"><i>{props.when}</i></div>
-                <div class="font-weight-light small"><i>{props.location}</i></div>
+            <div class="col">
+                <div class="fw-light small"><i>{props.when}</i></div>
+                <div class="fw-light small"><i>{props.location}</i></div>
             </div>
         </div>
     );
