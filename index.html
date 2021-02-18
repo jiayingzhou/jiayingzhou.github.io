@@ -35,10 +35,14 @@
 
         a:link,
         a:active,
-        a:hover,
         a:visited {
-            color: rgb(122, 0, 25) !important;
+            color: rgb(122, 0, 25);
             text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            text-decoration-color: rgb(251, 222, 136);
         }
 
         .btn::before {
@@ -48,6 +52,10 @@
             content: "\f054";
             width: 1.25em;
             transition: transform 0.4s ease;
+        }
+
+        .btn:hover {
+            background-color: rgb(251, 222, 136);
         }
 
         .btn[aria-expanded="true"]::before {
