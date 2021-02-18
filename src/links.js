@@ -3,6 +3,7 @@ const links =
         <a data-bs-toggle="collapse" href="#collapseBio">[Bio]</a>
         <a data-bs-toggle="collapse" href="#collapseContact">[Contact]</a>
         <a href="">[CV]</a>
+        <a href="https://github.com/yhuang-db">[GitHub]</a>
         <a href="https://scholar.google.com/citations?user=QLZJaXgAAAAJ&hl=en">[Google Scholar]</a>
         <a href="https://www.linkedin.com/in/yuchuan-huang-db/">[LinkedIn]</a>
 

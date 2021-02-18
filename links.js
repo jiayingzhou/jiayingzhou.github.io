@@ -18,6 +18,11 @@ var links = React.createElement(
     ),
     React.createElement(
         "a",
+        { href: "https://github.com/yhuang-db" },
+        "[GitHub]"
+    ),
+    React.createElement(
+        "a",
         { href: "https://scholar.google.com/citations?user=QLZJaXgAAAAJ&hl=en" },
         "[Google Scholar]"
     ),
