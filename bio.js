@@ -27,7 +27,7 @@ var bio = React.createElement(
     React.createElement(
         "p",
         null,
-        "My interests are broadly in database management systems, big data, distributed and cloud systems. I'm particularlly interested in system architecture and implementation for large-scale analytics/transaction workloads. I also find streaming/real-time data systems interesting."
+        "My interests are broadly in database management systems, big data, distributed and cloud systems. I'm particularlly interested in system architecture for large-scale analytics/transaction workloads. I also find streaming/real-time data systems interesting."
     ),
     React.createElement(
         "p",

@@ -7,7 +7,7 @@ const bio =
         </p>
         <p>
             My interests are broadly in database management systems, big data, distributed and cloud systems.
-            I'm particularlly interested in system architecture and implementation for large-scale analytics/transaction workloads.
+            I'm particularlly interested in system architecture for large-scale analytics/transaction workloads.
             I also find streaming/real-time data systems interesting.
         </p>
         <p>
