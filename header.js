@@ -16,7 +16,7 @@ var header = React.createElement(
         React.createElement(
             "div",
             { "class": "col-sm-2" },
-            React.createElement("img", { "class": "d-none d-sm-block profile", src: "resource/profile/1440x1440.jpeg", alt: "profile" })
+            React.createElement("img", { "class": "d-none d-sm-block profile", src: "resource/profile/1440x1440.png", alt: "profile" })
         )
     )
 );
