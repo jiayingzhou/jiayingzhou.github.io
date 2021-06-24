@@ -1,5 +1,5 @@
 const footer =
-    <div class="container px-5">
+    <div class="container">
         <div class="row bg-light py-1">
             <div class="col">
                 <div class=" text-muted my-footer">
