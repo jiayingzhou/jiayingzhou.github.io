@@ -4,7 +4,7 @@ function News(props) {
         null,
         React.createElement(
             "span",
-            { "class": "news-time" },
+            { "class": "my-bold" },
             props.time,
             " - "
         ),

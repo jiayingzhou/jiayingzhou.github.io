@@ -1,7 +1,7 @@
 function News(props) {
     return (
         <div>
-            <span class="news-time">{props.time} - </span>{props.content}
+            <span class="my-bold">{props.time} - </span>{props.content}
         </div>
     );
 }
