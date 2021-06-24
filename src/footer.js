@@ -1,6 +1,6 @@
 const footer =
-    <div class="container">
-        <div class="row bg-light py-1">
+    <div class="container bg-light py-1">
+        <div class="row">
             <div class="col">
                 <div class=" text-muted my-footer">
                     <span>&copy; 2021 Yuchuan Huang. Designed with Bootstrap and React. All rights reserved. </span>

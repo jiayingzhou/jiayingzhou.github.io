@@ -1,9 +1,9 @@
 var footer = React.createElement(
     "div",
-    { "class": "container" },
+    { "class": "container bg-light py-1" },
     React.createElement(
         "div",
-        { "class": "row bg-light py-1" },
+        { "class": "row" },
         React.createElement(
             "div",
             { "class": "col" },
