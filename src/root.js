@@ -1,5 +1,5 @@
 const root =
-    <div class="container">
+    <div class="container px-5">
         <div id="header"></div>
         <div id="bio"></div>
         <div id="links"></div>

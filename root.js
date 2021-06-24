@@ -1,6 +1,6 @@
 var root = React.createElement(
     "div",
-    { "class": "container" },
+    { "class": "container px-5" },
     React.createElement("div", { id: "header" }),
     React.createElement("div", { id: "bio" }),
     React.createElement("div", { id: "links" }),
