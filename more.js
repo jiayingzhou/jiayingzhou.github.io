@@ -1,6 +1,6 @@
 var more = React.createElement(
     "div",
-    { "class": "container px-5 py-3" },
+    { "class": "container py-3" },
     React.createElement(
         "button",
         { "class": "btn d-inline-flex align-items-center px-1", "data-bs-toggle": "collapse", "data-bs-target": "#more-collapse", "aria-expanded": "false" },
@@ -40,6 +40,5 @@ var more = React.createElement(
         React.createElement("div", { id: "experiences" })
     )
 );
-;
 
 ReactDOM.render(more, document.querySelector('#more'));

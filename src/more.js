@@ -1,5 +1,5 @@
 const more =
-    <div class="container px-5 py-3">
+    <div class="container py-3">
         <button class="btn d-inline-flex align-items-center px-1" data-bs-toggle="collapse" data-bs-target="#more-collapse" aria-expanded="false">
             More
         </button>
@@ -17,8 +17,6 @@ const more =
             <div id="experiences"></div>
         </div>
     </div>;
-;
-
 
 
 ReactDOM.render(
