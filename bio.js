@@ -7,7 +7,7 @@ var bio = React.createElement(
         "I\u2019m a PhD student in the ",
         React.createElement(
             "a",
-            { href: "https://www.cs.umn.edu/" },
+            { href: "https://cse.umn.edu/cs" },
             "Department of Computer Science & Engineering"
         ),
         " at ",
@@ -27,7 +27,7 @@ var bio = React.createElement(
     React.createElement(
         "p",
         null,
-        "My interests are broadly in database management systems, distributed and cloud systems. I'm particularly interested in system architectures for scalable analytics/transaction workloads. I also find streaming/real-time data systems interesting."
+        "My interests are broadly in database management systems, distributed and cloud systems. I'm particularly interested in system architectures for large scale analytics/transaction workloads. I also find streaming/real-time data systems interesting."
     ),
     React.createElement(
         "p",
