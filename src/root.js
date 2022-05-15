@@ -1,13 +1,13 @@
 const root =
-    <div>
+    <div class="d-flex flex-column min-vh-100">
         <div class="container">
             <div id="header"></div>
             <div id="bio"></div>
             <div id="links"></div>
             <div id="more"></div>
         </div>
-        <div class="my-footer" >
-            <div class ="container" id="footer"></div>
+        <div class="my-footer mt-auto" >
+            <div class="container" id="footer"></div>
         </div>
     </div>
     ;

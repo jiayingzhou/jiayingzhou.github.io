@@ -1,6 +1,6 @@
 var root = React.createElement(
     "div",
-    null,
+    { "class": "d-flex flex-column min-vh-100" },
     React.createElement(
         "div",
         { "class": "container" },
@@ -11,7 +11,7 @@ var root = React.createElement(
     ),
     React.createElement(
         "div",
-        { "class": "my-footer" },
+        { "class": "my-footer mt-auto" },
         React.createElement("div", { "class": "container", id: "footer" })
     )
 );
