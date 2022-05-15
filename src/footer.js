@@ -12,7 +12,7 @@ const footer =
         <div class="row">
             <div class="col">
                 <div>
-                    &copy; 2021 Yuchuan Huang. Designed with Bootstrap and React. All rights reserved.
+                    &copy; 2022 Yuchuan Huang. Designed with Bootstrap and React. All rights reserved.
                     <br />
                     <i>Last updated: {document.lastModified}</i>
                 </div>

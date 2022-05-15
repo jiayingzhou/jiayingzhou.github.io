@@ -28,7 +28,7 @@ var footer = React.createElement(
             React.createElement(
                 "div",
                 null,
-                "\xA9 2021 Yuchuan Huang. Designed with Bootstrap and React. All rights reserved.",
+                "\xA9 2022 Yuchuan Huang. Designed with Bootstrap and React. All rights reserved.",
                 React.createElement("br", null),
                 React.createElement(
                     "i",
