@@ -30,11 +30,6 @@ var more = React.createElement(
             )
         ),
         React.createElement("br", null),
-        React.createElement(
-            "a",
-            { href: "#experiences" },
-            "Experiences"
-        ),
         React.createElement("div", { id: "news" }),
         React.createElement("div", { id: "publications" }),
         React.createElement("div", { id: "experiences" })

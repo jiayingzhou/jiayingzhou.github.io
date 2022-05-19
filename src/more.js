@@ -11,7 +11,6 @@ const more =
                 <a href="http://just.urban-computing.com/">JUST</a>
             </div>
             <br />
-            <a href="#experiences">Experiences</a>
             <div id="news"></div>
             <div id="publications"></div>
             <div id="experiences"></div>
