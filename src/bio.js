@@ -1,7 +1,7 @@
 const bio =
     <div class="container">
         <p>
-            I’m a PhD student in the <a href="https://cse.umn.edu/cs">Department of Computer Science & Engineering</a> at <a href="https://twin-cities.umn.edu/">University of Minnesota, Twin Cities</a>, advised by <a href="https://www-users.cs.umn.edu/~mokbel/">Prof. Mohamed F. Mokbel</a>.
+            I’m a PhD student in the <a href="https://cla.umn.edu/statistics">School of Statistics</a> at <a href="https://twin-cities.umn.edu/">University of Minnesota, Twin Cities</a>, advised by <a href="https://www-users.cs.umn.edu/~mokbel/">Prof. Mohamed F. Mokbel</a>.
         </p>
         <p>
             My interests are broadly in database management systems, distributed and cloud systems.

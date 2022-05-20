@@ -7,8 +7,8 @@ var bio = React.createElement(
         "I\u2019m a PhD student in the ",
         React.createElement(
             "a",
-            { href: "https://cse.umn.edu/cs" },
-            "Department of Computer Science & Engineering"
+            { href: "https://cla.umn.edu/statistics" },
+            "School of Statistics"
         ),
         " at ",
         React.createElement(
