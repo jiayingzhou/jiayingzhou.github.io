@@ -12,7 +12,5 @@ const root =
     </div>
     ;
 
-ReactDOM.render(
-    root,
-    document.querySelector('#root')
-);
+ReactDOM.render(root, document.querySelector('#root'));
+// ReactDOM.createRoot(document.getElementById('root')).render(root);

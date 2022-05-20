@@ -47,4 +47,4 @@ var footer = React.createElement(
     )
 );
 
-ReactDOM.render(footer, document.querySelector('#footer'));
+ReactDOM.createRoot(document.getElementById('footer')).render(footer);

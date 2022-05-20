@@ -17,3 +17,4 @@ var root = React.createElement(
 );
 
 ReactDOM.render(root, document.querySelector('#root'));
+// ReactDOM.createRoot(document.getElementById('root')).render(root);

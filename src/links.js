@@ -17,8 +17,4 @@ const links =
         </div>
     </div>;
 
-
-ReactDOM.render(
-    links,
-    document.querySelector('#links')
-);
+ReactDOM.createRoot(document.getElementById('links')).render(links);

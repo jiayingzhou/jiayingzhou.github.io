@@ -15,8 +15,4 @@ const news =
         <News time="12/2019" content={justNews} />
     </div>;
 
-
-ReactDOM.render(
-    news,
-    document.querySelector('#news')
-);
+ReactDOM.createRoot(document.getElementById('news')).render(news);

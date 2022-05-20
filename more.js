@@ -37,3 +37,4 @@ var more = React.createElement(
 );
 
 ReactDOM.render(more, document.querySelector('#more'));
+// ReactDOM.createRoot(document.getElementById('more')).render(more);

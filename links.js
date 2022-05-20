@@ -41,4 +41,4 @@ var links = React.createElement(
     )
 );
 
-ReactDOM.render(links, document.querySelector('#links'));
+ReactDOM.createRoot(document.getElementById('links')).render(links);

@@ -107,4 +107,4 @@ var publications = React.createElement(
     )
 );
 
-ReactDOM.render(publications, document.querySelector('#publications'));
+ReactDOM.createRoot(document.getElementById('publications')).render(publications);

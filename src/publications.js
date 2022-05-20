@@ -46,8 +46,4 @@ const publications =
         <div id="JUST">{just}</div>
     </div>;
 
-
-ReactDOM.render(
-    publications,
-    document.querySelector('#publications')
-);
+ReactDOM.createRoot(document.getElementById('publications')).render(publications);

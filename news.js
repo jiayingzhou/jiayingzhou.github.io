@@ -41,4 +41,4 @@ var news = React.createElement(
     React.createElement(News, { time: "12/2019", content: justNews })
 );
 
-ReactDOM.render(news, document.querySelector('#news'));
+ReactDOM.createRoot(document.getElementById('news')).render(news);

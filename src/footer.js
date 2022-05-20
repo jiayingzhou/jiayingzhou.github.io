@@ -24,8 +24,4 @@ const footer =
         </div>
     </div>;
 
-
-ReactDOM.render(
-    footer,
-    document.querySelector('#footer')
-);
+ReactDOM.createRoot(document.getElementById('footer')).render(footer);

@@ -14,7 +14,4 @@ const bio =
     </div>;
 
 
-ReactDOM.render(
-    bio,
-    document.querySelector('#bio')
-);
+ReactDOM.createRoot(document.getElementById('bio')).render(bio);

@@ -21,4 +21,4 @@ var header = React.createElement(
     )
 );
 
-ReactDOM.render(header, document.querySelector('#header'));
+ReactDOM.createRoot(document.getElementById('header')).render(header);

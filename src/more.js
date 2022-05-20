@@ -17,8 +17,5 @@ const more =
         </div>
     </div>;
 
-
-ReactDOM.render(
-    more,
-    document.querySelector('#more')
-);
+ReactDOM.render(more, document.querySelector('#more'));
+// ReactDOM.createRoot(document.getElementById('more')).render(more);

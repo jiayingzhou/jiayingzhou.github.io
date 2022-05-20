@@ -55,4 +55,4 @@ var experiences = React.createElement(
     React.createElement(Experience, { where: "Wuhan University", role: "B.Eng., School of Remote Sensing and Information Engineering", when: "09/2013 - 06/2017", location: "Wuhan, China" })
 );
 
-ReactDOM.render(experiences, document.querySelector('#experiences'));
+ReactDOM.createRoot(document.getElementById('experiences')).render(experiences);

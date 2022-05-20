@@ -36,4 +36,4 @@ var bio = React.createElement(
     )
 );
 
-ReactDOM.render(bio, document.querySelector('#bio'));
+ReactDOM.createRoot(document.getElementById('bio')).render(bio);
